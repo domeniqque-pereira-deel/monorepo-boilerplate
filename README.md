@@ -19,7 +19,21 @@ After clone the project, run this command:
 yarn && yarn start
 ```
 
-Your application was started on:
+Your apps was started in:
 - Front: http://localhost:3000
 - Api: http://localhost:4000
-- Mobile console: http://localhost:19002
+
+The mobile project should be started manually. Run:
+
+```bash
+yarn mobile start
+```
+
+## TODO
+[ ] FRONT: Add material ui
+[ ] FRONT: Add apollo gql
+[ ] FRONT: Add Firebase auth
+[ ] API: Config apollo graphql
+[ ] API: Config firebase guard
+[ ] API: Config prisma
+[ ] MOBILE: Add eslint and prettier

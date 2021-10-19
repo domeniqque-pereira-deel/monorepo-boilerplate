@@ -3,6 +3,7 @@
 This is my boilerplate to start projects.
 
 ## Stacks
+- [Typescript](https://www.typescriptlang.org/), [Eslint](https://eslint.org/), [Prettier](https://prettier.io/)
 - [React PWA](https://create-react-app.dev/docs/making-a-progressive-web-app/)
 - [Material UI](https://mui.com/)
 - [Apollo Graphql](https://www.apollographql.com/docs/react/)

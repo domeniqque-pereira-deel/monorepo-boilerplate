@@ -21,3 +21,4 @@ yarn && yarn start
 Your application was started on:
 - Front: http://localhost:3000
 - Api: http://localhost:4000
+- Mobile console: http://localhost:19002

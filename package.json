@@ -3,9 +3,11 @@
   "author": "Domeniqque <domeniqque@hotmail.com>",
   "private": true,
   "scripts": {
+    "postinstall": "expo-yarn-workspaces check-workspace-dependencies",
     "web": "yarn workspace @monorepo/web",
     "api": "yarn workspace @monorepo/api",
-    "start": "concurrently 'yarn api start' 'yarn web start'"
+    "mobile": "yarn workspace @monorepo/mobile",
+    "start": "concurrently 'yarn api start' 'yarn web start' 'yarn mobile start'"
   },
   "workspaces": {
     "packages": [
@@ -19,6 +21,7 @@
   },
   "devDependencies": {
     "concurrently": "^6.3.0",
+    "expo-yarn-workspaces": "^1.5.2",
     "typescript": "^4.4.4"
   }
 }

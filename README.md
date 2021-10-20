@@ -30,10 +30,16 @@ yarn mobile start
 ```
 
 ## TODO
-[ ] FRONT: Add material ui
-[ ] FRONT: Add apollo gql
-[ ] FRONT: Add Firebase auth
-[ ] API: Config apollo graphql
-[ ] API: Config firebase guard
-[ ] API: Config prisma
-[ ] MOBILE: Add eslint and prettier
+
+- [X] Start monorepo
+- [X] API: Config eslint
+- [X] FRONT: Add material ui
+- [ ] FRONT: Config routes
+- [ ] FRONT: Add apollo gql
+- [ ] FRONT: Add Firebase auth
+- [ ] API: Config apollo graphql
+- [ ] API: Config firebase guard
+- [ ] API: Config prisma
+- [ ] MOBILE: Add eslint and prettier
+- [ ] MOBILE: Config routes
+- [ ] MOBILE: Config Apollo Graphql
